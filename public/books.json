@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co/txC82mM/the-great-gatsby.jpg",
+        "review": "A profound critique of the American Dream and a tragic love story set in the Jazz Age.",
+        "totalPages": 180,
+        "rating": 4.4,
+        "category": "Classic",
+        "tags": ["Classic", "American Literature", "Tragedy"],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 2,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://example.com/images/1984.jpg",
+        "review": "A chilling depiction of a dystopian future where totalitarianism reigns.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Dystopian",
+        "tags": ["Dystopian", "Political Fiction", "Science Fiction"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 3,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/D1KHh7h/To-Kill-a-Mockingbird.png",
+        "review": "A powerful exploration of racial injustice in the Deep South, seen through the eyes of a young girl.",
+        "totalPages": 281,
+        "rating": 4.8,
+        "category": "Classic",
+        "tags": ["Classic", "Historical Fiction", "Social Issues"],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/D1KHh7h/To-Kill-a-Mockingbird.png",
+        "review": "A thrilling adventure in a fantastical world, featuring the iconic journey of Bilbo Baggins.",
+        "totalPages": 310,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": ["Fantasy", "Adventure", "Epic"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.ibb.co/Qk9ytX4/Pride-and-Prejudice.jpg",
+        "review": "A witty and romantic tale of manners, marriage, and societal expectations in 19th century England.",
+        "totalPages": 279,
+        "rating": 4.6,
+        "category": "Romance",
+        "tags": ["Romance", "Classic", "Historical"],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/rsZGfx5/the-Catcher-in-the-Rye.jpg",
+        "review": "A coming-of-age story that delves into the mind of a rebellious and troubled teenager.",
+        "totalPages": 214,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": ["Fiction", "Classic", "Coming-of-age"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    }
+]
