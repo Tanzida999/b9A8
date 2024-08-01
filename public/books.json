@@ -8,7 +8,7 @@
         "totalPages": 180,
         "rating": 4.4,
         "category": "Classic",
-        "tags": ["Classic", "American Literature", "Tragedy"],
+        "tags": "Classic",
         "publisher": "Charles Scribner's Sons",
         "yearOfPublishing": 1925
     },
@@ -16,12 +16,12 @@
         "bookId": 2,
         "bookName": "1984",
         "author": "George Orwell",
-        "image": "https://example.com/images/1984.jpg",
+        "image": "https://i.ibb.co/xXWG74S/1984-george-orwell.jpg",
         "review": "A chilling depiction of a dystopian future where totalitarianism reigns.",
         "totalPages": 328,
         "rating": 4.7,
         "category": "Dystopian",
-        "tags": ["Dystopian", "Political Fiction", "Science Fiction"],
+        "tags": "Dystopian",
         "publisher": "Secker & Warburg",
         "yearOfPublishing": 1949
     },
@@ -34,7 +34,7 @@
         "totalPages": 281,
         "rating": 4.8,
         "category": "Classic",
-        "tags": ["Classic", "Historical Fiction", "Social Issues"],
+        "tags": "Classic",
         "publisher": "J.B. Lippincott & Co.",
         "yearOfPublishing": 1960
     },
@@ -47,7 +47,7 @@
         "totalPages": 310,
         "rating": 4.7,
         "category": "Fantasy",
-        "tags": ["Fantasy", "Adventure", "Epic"],
+        "tags": "Fantasy",
         "publisher": "George Allen & Unwin",
         "yearOfPublishing": 1937
     },
@@ -60,7 +60,7 @@
         "totalPages": 279,
         "rating": 4.6,
         "category": "Romance",
-        "tags": ["Romance", "Classic", "Historical"],
+        "tags": "Romance",
         "publisher": "T. Egerton, Whitehall",
         "yearOfPublishing": 1813
     },
@@ -73,7 +73,7 @@
         "totalPages": 214,
         "rating": 4.3,
         "category": "Fiction",
-        "tags": ["Fiction", "Classic", "Coming-of-age"],
+        "tags": "Fiction",
         "publisher": "Little, Brown and Company",
         "yearOfPublishing": 1951
     }

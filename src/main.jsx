@@ -11,6 +11,7 @@ import Root from './components/Root/Root.jsx';
 import ListedBooks from './components/ListedBooks/ListedBooks.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import PagesToRead from './components/PagesToRead/PagesToRead.jsx';
+import BookDetails from './components/BookDetails/BookDetails.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path:'/pagestoread',
         element:<PagesToRead></PagesToRead>
+      },
+      {
+        path:'book/:id',
+        element:<BookDetails></BookDetails>
       }
     ]
   },
