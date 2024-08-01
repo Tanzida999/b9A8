@@ -1,20 +1,23 @@
 
 import { CiStar } from "react-icons/ci";
 import { IoIosStarOutline } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 
 const Book = ({book}) => {
-    const {bookName,image,category,rating,author,tags} = book;
+    const {bookId,bookName,image,category,rating,author,tags} = book;
     return (
-        <div className="flex flex-row-3">
-            <div className="card bg-base-100 w-96">
-  <figure>
-    <img
+
+            <div className="card flex">
+<div className="flex ml-8">
+<figure className="justify-start flex-shrink-0 ml-8">
+   <Link to={`/book/${bookId}`}> <img
       src={image}
-      alt="Books" />
+      alt="Books" /></Link>
   </figure>
-  <div className="card-body">
-  <div className="">
+</div>
+  <div className="card-body flex flex-col justify-between ml-4">
+
   <button className="">{tags}</button>
 </div>
 
@@ -23,10 +26,10 @@ const Book = ({book}) => {
     <div className="flex">
     <p>{category}</p>
     <p className="flex gap-2">{rating}<IoIosStarOutline></IoIosStarOutline></p>
-    </div>
+
   </div>
 </div>
-        </div>
+  
     );
 };
 
