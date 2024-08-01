@@ -9,7 +9,7 @@ const Book = ({book}) => {
     return (
 
             <div className="card flex border rounded-lg m-4">
-<div className="flex ml-8 h-32">
+<div className="flex ml-8">
 <figure className="justify-start flex-shrink-0 mt-4 ml-8">
    <Link to={`/book/${bookId}`}> <img
       src={image}
